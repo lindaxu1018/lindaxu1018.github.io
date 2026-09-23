@@ -22,9 +22,8 @@ body { background:#fff; }
 .hero { min-height:auto; display:block; padding:8vh 0 7vh; background:#fff; }
 .hero-banner { width:100%; position:relative; overflow:hidden; }
 .hero-pattern { width:100%; height:auto; min-height:250px; object-fit:cover; display:block; }
-.hero-logo-lockup { position:absolute; left:50%; top:50%; display:flex; width:max-content; align-items:center; gap:0; padding:0; color:#111; transform:translate(calc(-50% - clamp(18px,3vw,45px)),-50%); }
-.hero-logo-lockup img { width:clamp(245px,27vw,410px); height:clamp(245px,27vw,410px); object-fit:contain; }
-.hero-logo-lockup span { margin-left:clamp(-125px,-7.5vw,-70px); transform:translateY(clamp(28px,3.3vw,49px)); font:500 clamp(1.5rem,3vw,3.2rem)/1 "Playfair Display",Georgia,serif; letter-spacing:.025em; white-space:nowrap; }
+.hero-logo-lockup { position:absolute; inset:0; display:flex; align-items:center; justify-content:center; padding:clamp(14px,2vw,30px); }
+.hero-logo-lockup img { width:min(82vw,900px); height:100%; object-fit:contain; }
 .hero-introduction { margin:clamp(38px,4vw,62px) auto 0; padding:0 24px; text-align:center; }
 .hero-introduction p { margin:0; font-size:clamp(1rem,1.5vw,1.35rem); line-height:1.45; }
 .hero-button { display:inline-block; margin-top:32px; padding:13px 30px; border:1px solid var(--ink); font-size:16px; transition:.2s ease; }
@@ -44,9 +43,8 @@ footer { background:#fff; color:#706c64; border-top-color:#d7dce2; }
   .logo-slot { width:68px; height:24px; }
   .hero { padding:7vh 0 6vh; }
   .hero-pattern { min-height:190px; }
-  .hero-logo-lockup { gap:0; padding:0; }
-  .hero-logo-lockup img { width:175px; height:175px; }
-  .hero-logo-lockup span { margin-left:-55px; margin-bottom:0; transform:translateY(19px); font-size:1.3rem; }
+  .hero-logo-lockup { padding:10px; }
+  .hero-logo-lockup img { width:min(96vw,560px); height:100%; }
   .hero-introduction { margin-top:36px; }
   .hero-button { margin-top:28px; }
 }

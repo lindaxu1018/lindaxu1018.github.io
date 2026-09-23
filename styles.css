@@ -23,7 +23,7 @@ body { background:#fff; }
 .hero-banner { width:100%; position:relative; overflow:hidden; }
 .hero-pattern { width:100%; height:auto; min-height:250px; object-fit:cover; display:block; }
 .hero-logo-lockup { position:absolute; inset:0; display:flex; align-items:center; justify-content:center; padding:clamp(14px,2vw,30px); }
-.hero-logo-lockup img { width:min(76vw,830px); height:100%; object-fit:contain; }
+.hero-logo-lockup img { width:min(70vw,760px); height:100%; object-fit:contain; }
 .hero-introduction { margin:clamp(38px,4vw,62px) auto 0; padding:0 24px; text-align:center; }
 .hero-introduction p { margin:0; font-size:clamp(1rem,1.5vw,1.35rem); line-height:1.45; }
 .hero-button { display:inline-block; margin-top:32px; padding:13px 30px; border:1px solid var(--ink); font-size:16px; transition:.2s ease; }
@@ -44,7 +44,7 @@ footer { background:#fff; color:#706c64; border-top-color:#d7dce2; }
   .hero { padding:7vh 0 6vh; }
   .hero-pattern { min-height:190px; }
   .hero-logo-lockup { padding:10px; }
-  .hero-logo-lockup img { width:min(90vw,520px); height:100%; }
+  .hero-logo-lockup img { width:min(84vw,480px); height:100%; }
   .hero-introduction { margin-top:36px; }
   .hero-button { margin-top:28px; }
 }

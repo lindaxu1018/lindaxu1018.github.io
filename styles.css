@@ -115,3 +115,7 @@ footer { background:#fff; color:#706c64; border-top-color:#d7dce2; }
 }
 
 /* Deployment refresh: homepage lockup sizing updated. */
+
+/* About portrait: crop the wide photo around Linda while keeping the original asset intact. */
+.about-image { aspect-ratio:4/5; }
+.about-image img { width:100%; height:100%; object-fit:cover; object-position:center center; display:block; }
